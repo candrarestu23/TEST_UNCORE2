@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="General">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/Guru"
+                    android:icon="@drawable/user_icon"
+                    android:title="Guru" />
+                <item
+                    android:id="@+id/Siswa"
+                    android:icon="@drawable/user_icon"
+                    android:title="Siswa" />
+                <item
+                    android:id="@+id/WaliMurid"
+                    android:icon="@drawable/user_icon"
+                    android:title="Wali Murdi" />
+                <item
+                    android:id="@+id/Staff"
+                    android:icon="@drawable/user_icon"
+                    android:title="Staff" />
+                <item
+                    android:id="@+id/Kelas"
+                    android:icon="@drawable/home"
+                    android:title="Kelas" />
+                <item
+                    android:id="@+id/Partner"
+                    android:icon="@drawable/oleh_oleh"
+                    android:title="Partner" />
+            </group>
+        </menu>
+    </item>
+<item android:title="Admin">
+    <menu>
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/listadmin"
+                android:icon="@drawable/user_icon"
+                android:title="Admin"/>
+        </group>
+    </menu>
+</item>
+</menu>
